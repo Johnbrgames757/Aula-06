@@ -1,0 +1,35 @@
+@charset utf-8;
+
+@font-face {
+    font-family: fontsla;
+    src: url(EduTASBeginner-VariableFont_wght.ttf);
+    font-family: font2;
+    src: url(Pacifico-Regular.ttf)
+}
+
+body {
+    background: #b38ee4;
+    text-align: center;
+    font-family: font2;
+    height: 50vh;
+    width: 25vw;
+    margin: top 0%;
+    margin-left: 25%;
+    font-size: 20px;
+    padding:0;
+
+
+}
+
+body h1 {
+    text-align: center;
+    font-family: fontsla;
+    text-shadow:0 0 10px #7c62ac, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #6a74d4, 0 0 70px#612c35, 0 0 80px #612c35, 0 0 100px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+}
